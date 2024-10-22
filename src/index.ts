@@ -58,8 +58,10 @@ async function main() {
     fs.unlinkSync(DUMP_FILE);
 
     console.log('Backup completed successfully (local file removed).');
+    process.exit(0);
   } catch (error) {
     console.error('Error:', error);
+    process.exit(1);
   }
 }
 
