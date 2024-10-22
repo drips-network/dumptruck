@@ -1,0 +1,10 @@
+# Node.js related files
+node_modules/
+dist/
+.env
+.vscode/settings.json
+
+# Ignore dump files
+*.sql
+*.dump
+*.tar
